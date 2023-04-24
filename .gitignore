@@ -1,0 +1,16 @@
+# Client
+./client/.env
+./client/build
+./client/node_modules
+
+# Server
+./server/.env
+./server/build
+./server/node_modules
+
+# All
+**/yarn.lock
+**/package-lock.json
+**/.env
+**/node_modules
+**/.DS_Store

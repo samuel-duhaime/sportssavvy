@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "907f9bc1-faa7-4641-a2bb-8687f9d895e9",
+    "userId": "user1",
+    "email": "test@test.com",
+    "cardNumber": 411142241414,
+    "cardExpiration": "10/25",
+    "cvc": 424,
+    "country": "Canada",
+    "zip": "h2l1s1",
+    "address": "999 St-Catherine street",
+    "purchasedItemIds": [
+      { "quantity": 1, "itemId": 6838 },
+      { "quantity": 2, "itemId": 6839 }
+    ]
+  }
+]

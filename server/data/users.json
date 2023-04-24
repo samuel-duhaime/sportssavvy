@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "user1",
+    "firstName": "Olivia",
+    "imageSrc": "public/stockimages/olivia-user.jpg",
+    "isAdmin": false,
+    "cartItems": [
+      { "_id": 6837, "quantity": 2, "price": 249 },
+      { "_id": 6841, "quantity": 1, "price": 299 }
+    ],
+    "checkoutIds": []
+  },
+  {
+    "_id": "user2",
+    "firstName": "Liam",
+    "imageSrc": "public/stockimages/liam-user.jpg",
+    "isAdmin": false,
+    "cartItems": [],
+    "checkoutIds": []
+  }
+]
