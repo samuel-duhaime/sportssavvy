@@ -1,145 +1,35 @@
-# Wearables E-Commerce Project
+# SportsSavvy | 🏀 E-commerce for Sports Technologies - Team project
 
-You've and your team have been hired by a client to create an e-commerce website that will showcase wearable technology. The client believes that wearable tech is the way of the future!
+## Trailer
 
-Your job will be to build a functional e-commerce website where users can come in and shop around for the tech they want.
+<img src="assets/sportsSavvy-trailer.gif" alt="SportsSavvy trailer" width="600px">
 
----
+## Description
 
-## Getting Started
+An innovative e-commerce website developed by a team of 4 tech-savvy developers. Explore and shop for the latest tech products in the sports industry, with a user-friendly interface and a seamless shopping experience.
 
-You have your assignment and your team. What should you do first? This will vary for every team, and even every team member.
+## Problems and Challenges
 
-> **The important thing is to NOT just jump in and start coding!**
+- Working in a team using GitHub for the first time presented a significant challenge. Coordinating and merging individual contributions while ensuring consistency and avoiding merge conflicts required constant communication and collaboration with my teammates.
+- Another challenge was building both the frontend and the backend from scratch. Since we only had access to the data, we had to export it to MongoDB and design the UI and API based on the data. This required a deep understanding of the technology stack and meticulous attention to detail.
+- Completing the project within a week was a particularly tight timeline, given the complexity of the features we wanted to implement. This required efficient task management, rapid decision-making, and creative problem-solving to overcome any obstacles that arose during the development process.
 
-A good brainstorming session is **STRONGLY** recommended! Plan out together :
-- What it will look like.
-- How it will behave.
-- What features you want to have.
-- What stretch goals you want to aim for.
-- etc...
+## Solutions
 
-There probably shouldn't be any coding until a skeleton has been planned out.
+- Completed the Figma plan and Trello planning of the application, laying out the structure of the site and organizing the tasks.
+- Worked as the only full-stack developer on the team, providing support to other members when needed and ensuring that everything was working seamlessly.
+- In charge of Git verification, verifying the work of other team members to avoid conflicts and ensure that the project was on track.
+- Implemented a filtering and sorting feature, allowing users to sort products by brand, price, and company.
 
----
+## Project Details
 
-## Meet your Product Manager!
+- Development time: Completed in 1 week
+- Frontend: Developed using React, JavaScript, and Styled-components, which provided a smooth and responsive user interface that enhanced the shopping experience.
+- Backend: Developed using Node.js, Express, and MongoDB, which allowed for seamless data management and efficient API calls.
+- Tools: Utilized Figma for planning and designing the UI, Trello for task management, and GitHub for version control and collaboration.
 
-Each team has been assigned a product manager!
-- This person is in charge of answering questions, guiding you and basically preventing everything from falling apart!
-- This person will be directing a team stand-up every day.
-    - A stand-up is a meeting that lasts around 10 to 15 minutes where each member of the team updates the PM (and other members) about their progress or problems they're facing.
+## Conclusion
 
----
+Overall, the SportsSavvy project was a challenging but highly rewarding experience. Working in a team with GitHub for the first time presented a significant challenge, but the collaboration and communication with my teammates were crucial in delivering a high-quality e-commerce website. I was able to contribute significantly to the project by completing the Figma plan and Trello planning, ensuring everything was working seamlessly, and helping teammates debug their code. Being the only full-stack developer in the team, I was responsible for implementing features such as filtering and sorting of products, as well as verifying code using Git.
 
-## MVP
-
-You have plenty of freedom in how the app will look and behave. As long as you meet the MVP requirements below, your poject will be deemed successful! You are allowed to use external UI libraries to build some nice functionality.
-
-> **✋ You CANNOT use any external styling libraries, including, but not limited to, Material UI, Bootstrap, and Tailwind to style your project!**
-
-## Frontend
-
-Users should be able to:
-
-- View all items in the database.
-- Purchase items that are in stock.
-- View their cart containing the items they intend to purchase.
-    - The cart **CANNOT** use `sessionStorage` or `localStorage`, and must be persistent.
-    - **HINT**: use the database. Yes it will be slow, but use it anyways.
-- Edit the cart before completing the purchase.
-    - **HINT**: use a reducer.
-
-## Backend Requirements
-
-The Node server should
-
-- Be RESTful (use the right `method` for the right job and hold nothing in memory).
-- Provide the FE with the required data in a clear and organized way.
-- Update the database as users make purchases.
-
-## Code Requirements
-
-That's right! We're dropping code requirements on you! 
-
-- No console logs! _Unless they are part of a catch (logging an error)._
-- Comments! Comments everywhere! 
-    - Every function should have a comment above it that briefly explains what it does.
-        - Remember: a component is a function!
-    - Any large / complex block of code should have comments above it that briefly explain what it's doing.
-    - Variables should have comments explaing what they're for. **_Especially if there are many with similar names or the name isn't very clear._**
-- Organization! No file should be several hundred lines long! Split your code up into different files.
-- No bugs! (In a perfect world this would be possible. For now, try to minimize them).
-
-## Project Requirements
-
-You thought we were done? Oh there's more!
-
-- Attendance to the daily stand-ups conducted by your PM.
-- A [Trello](https://trello.com) board to divide up the tasks (other similar sites are fine too).
-- A group chat or new private discord server for your team and your PM.
-
-## Stretch Goals
-
-Yeup!
-
-> For this project, stretch goals are highly recommended (though not necessary)!
-
-The MVP for this project is small; in fact it's tiny. We strongly encourage you to flex your skills and build something cool and functional! 
-
-Make use of any and all libraries (except styling libraries) you can get your hands on if you think it will make the user's experience on your website better!
-
----
-
-## About the Data
-
-All about Wearables!
-You will find 349 items in the `_data/items.json` file. The data is mostly clean, but there could be some irregularities, i.e. empty values, values that we really don't need. _This is common in large databases, and something that we have to deal with._
-
-> No modifying the data at all. We use what we get!
-
-### Item Object
-
-```js
-  {
-    "name": "Barska GB12166 Fitness Watch with Heart Rate Monitor",
-    "price": "$49.99",
-    "body_location": "Wrist",
-    "category": "Fitness",
-    "id": 6543,
-    "imageSrc": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHB...<REST_OF_IMAGE_ENCODING>",
-    "numInStock": 9,
-    "companyId": 19962
-  },
-```
-
-### Company Object
-
-```js
-  {
-    "name": "Barska",
-    "url": "http://www.barska.com/",
-    "country": "United States",
-    "id": 19962
-  }
-```
-
----
-
-## 🤣 Don't be this guy...
-
-<img src='./client/assets/comic-strip.png' style='width: 100%;'/>
-
----
-
-## Working as a team
-
-Use the [Group Project Step by Step Instructions](https://docs.google.com/document/d/1Txc02kMSnTjyOWFj3HDXc5y5tSurt3AFJGpXZKxvX6A/edit?usp=sharing)
-
----
-
-## Presentation
-
-Your team will have to present the final product on the final day in order to get a passing grade. Who will draw the short straw?
-
-- The presentation shouldn't be more than 5 mintues long.
+In terms of technology, I worked with React, JavaScript, and Styled-components for the frontend and Node.js, Express, and MongoDB for the backend. The project development time was tight, with only one week to deliver a functional e-commerce website. Despite these challenges, we were able to deliver a product that met the project requirements and demonstrated our skills in web development. I learned a lot from this project and gained valuable experience in working in a team, using GitHub, and building a full-stack web application.
